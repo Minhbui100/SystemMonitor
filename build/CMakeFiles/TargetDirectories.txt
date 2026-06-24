@@ -1,0 +1,3 @@
+/home/mikebui/sysmonitor/build/CMakeFiles/sysmonitor.dir
+/home/mikebui/sysmonitor/build/CMakeFiles/edit_cache.dir
+/home/mikebui/sysmonitor/build/CMakeFiles/rebuild_cache.dir
