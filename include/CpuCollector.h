@@ -6,7 +6,13 @@
 class CpuCollector: public Collector {
     public:
         void update() override;
-        double getUsage() const;  
+        double getUsage() const; 
+    
+    private:
+        double usage=0.0;
+
+        long prevTotal=0;
+        long prevIdle=0;
 };
 
 #endif

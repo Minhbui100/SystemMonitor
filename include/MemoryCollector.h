@@ -6,8 +6,14 @@
 class MemoryCollector: public Collector{
     public:
         void update() override;
-        long getUsedMB() const;
-        long getTotalMB() const;
+        double getUsedGB() const;
+        double getTotalGB() const;
+        double getUsedRate() const;
+    private:
+        double memTotal=0.0;
+        double memAvailable=0.0;
+        double usedMem=0.0;
+        
 };
 
 #endif

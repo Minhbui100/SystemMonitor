@@ -7,6 +7,8 @@ class TempCollector: public Collector{
     public:
         void update() override;
         double getTempC() const;
+    private:
+        long tempC=0;
 };
 
 #endif
