@@ -10,6 +10,7 @@ add_executable(sysmonitor
                 src/MemoryCollector.cpp
                 src/TempCollector.cpp
                 src/SystemMonitor.cpp
+                src/Logger.cpp
                 )
 
 target_link_libraries(sysmonitor ${CURSES_LIBRARIES})

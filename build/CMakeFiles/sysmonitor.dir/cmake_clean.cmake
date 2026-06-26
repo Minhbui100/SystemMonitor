@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sysmonitor.dir/link.d"
   "CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.o"
   "CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.o.d"
+  "CMakeFiles/sysmonitor.dir/src/Logger.cpp.o"
+  "CMakeFiles/sysmonitor.dir/src/Logger.cpp.o.d"
   "CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.o"
   "CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.o.d"
   "CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.o"

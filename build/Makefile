@@ -153,6 +153,30 @@ src/CpuCollector.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sysmonitor.dir/build.make CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.s
 .PHONY : src/CpuCollector.cpp.s
 
+src/Logger.o: src/Logger.cpp.o
+.PHONY : src/Logger.o
+
+# target to build an object file
+src/Logger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sysmonitor.dir/build.make CMakeFiles/sysmonitor.dir/src/Logger.cpp.o
+.PHONY : src/Logger.cpp.o
+
+src/Logger.i: src/Logger.cpp.i
+.PHONY : src/Logger.i
+
+# target to preprocess a source file
+src/Logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sysmonitor.dir/build.make CMakeFiles/sysmonitor.dir/src/Logger.cpp.i
+.PHONY : src/Logger.cpp.i
+
+src/Logger.s: src/Logger.cpp.s
+.PHONY : src/Logger.s
+
+# target to generate assembly for a file
+src/Logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sysmonitor.dir/build.make CMakeFiles/sysmonitor.dir/src/Logger.cpp.s
+.PHONY : src/Logger.cpp.s
+
 src/MemoryCollector.o: src/MemoryCollector.cpp.o
 .PHONY : src/MemoryCollector.o
 
@@ -261,6 +285,9 @@ help:
 	@echo "... src/CpuCollector.o"
 	@echo "... src/CpuCollector.i"
 	@echo "... src/CpuCollector.s"
+	@echo "... src/Logger.o"
+	@echo "... src/Logger.i"
+	@echo "... src/Logger.s"
 	@echo "... src/MemoryCollector.o"
 	@echo "... src/MemoryCollector.i"
 	@echo "... src/MemoryCollector.s"

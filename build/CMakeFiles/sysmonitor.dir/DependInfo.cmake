@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/mikebui/SystemMonitor/src/CpuCollector.cpp" "CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.o" "gcc" "CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.o.d"
+  "/home/mikebui/SystemMonitor/src/Logger.cpp" "CMakeFiles/sysmonitor.dir/src/Logger.cpp.o" "gcc" "CMakeFiles/sysmonitor.dir/src/Logger.cpp.o.d"
   "/home/mikebui/SystemMonitor/src/MemoryCollector.cpp" "CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.o" "gcc" "CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.o.d"
   "/home/mikebui/SystemMonitor/src/SystemMonitor.cpp" "CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.o" "gcc" "CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.o.d"
   "/home/mikebui/SystemMonitor/src/TempCollector.cpp" "CMakeFiles/sysmonitor.dir/src/TempCollector.cpp.o" "gcc" "CMakeFiles/sysmonitor.dir/src/TempCollector.cpp.o.d"

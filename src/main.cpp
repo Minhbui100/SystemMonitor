@@ -1,4 +1,5 @@
 #include "SystemMonitor.h"
+#include "Logger.h"
 #include <iostream>
 #include <thread>
 #include <chrono>
@@ -52,6 +53,7 @@ void dashboard(SystemMonitor& monitor){
 
 int main() {
     SystemMonitor monitor;
+    Logger myLogger("Report.csv");
 
     setlocale(LC_ALL, "");  
     initscr();   
@@ -63,6 +65,7 @@ int main() {
     while (true) {
         monitor.updateAll();
         dashboard(monitor);
+        myLogger.log(monitor);
 
         this_thread::sleep_for(chrono::seconds(1));
 

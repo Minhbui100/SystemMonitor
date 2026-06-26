@@ -85,12 +85,12 @@ clean: CMakeFiles/sysmonitor.dir/clean
 CMakeFiles/sysmonitor.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sysmonitor.dir/build.make CMakeFiles/sysmonitor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sysmonitor.dir/build.make CMakeFiles/sysmonitor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mikebui/SystemMonitor/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target sysmonitor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mikebui/SystemMonitor/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target sysmonitor"
 .PHONY : CMakeFiles/sysmonitor.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sysmonitor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mikebui/SystemMonitor/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mikebui/SystemMonitor/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sysmonitor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mikebui/SystemMonitor/build/CMakeFiles 0
 .PHONY : CMakeFiles/sysmonitor.dir/rule
@@ -102,7 +102,7 @@ sysmonitor: CMakeFiles/sysmonitor.dir/rule
 # codegen rule for target.
 CMakeFiles/sysmonitor.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sysmonitor.dir/build.make CMakeFiles/sysmonitor.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mikebui/SystemMonitor/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target sysmonitor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mikebui/SystemMonitor/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target sysmonitor"
 .PHONY : CMakeFiles/sysmonitor.dir/codegen
 
 # clean rule for target.

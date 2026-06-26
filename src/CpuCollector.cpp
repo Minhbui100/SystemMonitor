@@ -13,7 +13,7 @@ void CpuCollector::update(){
     //cout<<line<<endl;
     istringstream ss(line);
     string cpu;
-    long user, nice, system, idle, iowait, irq, softirq;
+    double user, nice, system, idle, iowait, irq, softirq;
     ss>>cpu;
     ss>>user;
     ss>>nice;
@@ -23,9 +23,9 @@ void CpuCollector::update(){
     ss>>irq;
     ss>>softirq;
 
-    long total=user+ nice+ system+ idle+ iowait+ irq+ softirq;
-    long totalDelta=total-prevTotal;
-    long idleDelta=idle-prevIdle;
+    double total=user+ nice+ system+ idle+ iowait+ irq+ softirq;
+    double totalDelta=total-prevTotal;
+    double idleDelta=idle-prevIdle;
 
     if(totalDelta>0){
         usage=100*(totalDelta-idleDelta)/totalDelta;

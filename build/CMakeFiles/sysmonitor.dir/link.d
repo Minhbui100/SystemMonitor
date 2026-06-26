@@ -7,6 +7,7 @@ sysmonitor: \
   CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.o \
   CMakeFiles/sysmonitor.dir/src/TempCollector.cpp.o \
   CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.o \
+  CMakeFiles/sysmonitor.dir/src/Logger.cpp.o \
   /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/libcurses.so \
   /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/libcurses.so \
   /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/libcurses.so \
@@ -57,6 +58,8 @@ CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.o:
 CMakeFiles/sysmonitor.dir/src/TempCollector.cpp.o:
 
 CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.o:
+
+CMakeFiles/sysmonitor.dir/src/Logger.cpp.o:
 
 /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/libcurses.so:
 

@@ -11,8 +11,8 @@ class CpuCollector: public Collector {
     private:
         double usage=0.0;
 
-        long prevTotal=0;
-        long prevIdle=0;
+        double prevTotal=0;
+        double prevIdle=0;
 };
 
 #endif
