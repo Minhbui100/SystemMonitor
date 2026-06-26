@@ -39,8 +39,8 @@ sysmonitor: \
   /usr/lib/gcc/aarch64-linux-gnu/14/libgcc.a \
   /usr/lib/gcc/aarch64-linux-gnu/14/crtendS.o \
   /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/crtn.o \
-  /lib/aarch64-linux-gnu/libm.so.6 \
-  /lib/ld-linux-aarch64.so.1
+  /lib/ld-linux-aarch64.so.1 \
+  /lib/aarch64-linux-gnu/libm.so.6
 
 /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o:
 
@@ -122,6 +122,6 @@ CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.o:
 
 /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/crtn.o:
 
-/lib/aarch64-linux-gnu/libm.so.6:
-
 /lib/ld-linux-aarch64.so.1:
+
+/lib/aarch64-linux-gnu/libm.so.6:

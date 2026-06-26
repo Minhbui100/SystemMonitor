@@ -1,8 +1,8 @@
 CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.o: \
- /home/mikebui/sysmonitor/src/MemoryCollector.cpp \
+ /home/mikebui/SystemMonitor/src/MemoryCollector.cpp \
  /usr/include/stdc-predef.h \
- /home/mikebui/sysmonitor/include/MemoryCollector.h \
- /home/mikebui/sysmonitor/include/Collector.h \
+ /home/mikebui/SystemMonitor/include/MemoryCollector.h \
+ /home/mikebui/SystemMonitor/include/Collector.h \
  /usr/include/c++/14/iostream /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/aarch64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/14/bits/os_defines.h \

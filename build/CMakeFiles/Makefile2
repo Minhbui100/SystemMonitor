@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mikebui/sysmonitor
+CMAKE_SOURCE_DIR = /home/mikebui/SystemMonitor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mikebui/sysmonitor/build
+CMAKE_BINARY_DIR = /home/mikebui/SystemMonitor/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/sysmonitor.dir/clean
 CMakeFiles/sysmonitor.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sysmonitor.dir/build.make CMakeFiles/sysmonitor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sysmonitor.dir/build.make CMakeFiles/sysmonitor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mikebui/sysmonitor/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target sysmonitor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mikebui/SystemMonitor/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target sysmonitor"
 .PHONY : CMakeFiles/sysmonitor.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sysmonitor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mikebui/sysmonitor/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mikebui/SystemMonitor/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sysmonitor.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mikebui/sysmonitor/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mikebui/SystemMonitor/build/CMakeFiles 0
 .PHONY : CMakeFiles/sysmonitor.dir/rule
 
 # Convenience name for target.
@@ -102,7 +102,7 @@ sysmonitor: CMakeFiles/sysmonitor.dir/rule
 # codegen rule for target.
 CMakeFiles/sysmonitor.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sysmonitor.dir/build.make CMakeFiles/sysmonitor.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mikebui/sysmonitor/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target sysmonitor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mikebui/SystemMonitor/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target sysmonitor"
 .PHONY : CMakeFiles/sysmonitor.dir/codegen
 
 # clean rule for target.

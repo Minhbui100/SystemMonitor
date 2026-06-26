@@ -1,8 +1,9 @@
 CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.o: \
- /home/mikebui/sysmonitor/src/CpuCollector.cpp /usr/include/stdc-predef.h \
- /home/mikebui/sysmonitor/include/CpuCollector.h \
- /home/mikebui/sysmonitor/include/Collector.h /usr/include/c++/14/fstream \
- /usr/include/c++/14/bits/requires_hosted.h \
+ /home/mikebui/SystemMonitor/src/CpuCollector.cpp \
+ /usr/include/stdc-predef.h \
+ /home/mikebui/SystemMonitor/include/CpuCollector.h \
+ /home/mikebui/SystemMonitor/include/Collector.h \
+ /usr/include/c++/14/fstream /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/aarch64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/14/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

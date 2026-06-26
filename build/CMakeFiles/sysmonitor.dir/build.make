@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mikebui/sysmonitor
+CMAKE_SOURCE_DIR = /home/mikebui/SystemMonitor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mikebui/sysmonitor/build
+CMAKE_BINARY_DIR = /home/mikebui/SystemMonitor/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sysmonitor.dir/depend.make
@@ -73,74 +73,74 @@ CMakeFiles/sysmonitor.dir/codegen:
 .PHONY : CMakeFiles/sysmonitor.dir/codegen
 
 CMakeFiles/sysmonitor.dir/src/main.cpp.o: CMakeFiles/sysmonitor.dir/flags.make
-CMakeFiles/sysmonitor.dir/src/main.cpp.o: /home/mikebui/sysmonitor/src/main.cpp
+CMakeFiles/sysmonitor.dir/src/main.cpp.o: /home/mikebui/SystemMonitor/src/main.cpp
 CMakeFiles/sysmonitor.dir/src/main.cpp.o: CMakeFiles/sysmonitor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikebui/sysmonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sysmonitor.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sysmonitor.dir/src/main.cpp.o -MF CMakeFiles/sysmonitor.dir/src/main.cpp.o.d -o CMakeFiles/sysmonitor.dir/src/main.cpp.o -c /home/mikebui/sysmonitor/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikebui/SystemMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sysmonitor.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sysmonitor.dir/src/main.cpp.o -MF CMakeFiles/sysmonitor.dir/src/main.cpp.o.d -o CMakeFiles/sysmonitor.dir/src/main.cpp.o -c /home/mikebui/SystemMonitor/src/main.cpp
 
 CMakeFiles/sysmonitor.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sysmonitor.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikebui/sysmonitor/src/main.cpp > CMakeFiles/sysmonitor.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikebui/SystemMonitor/src/main.cpp > CMakeFiles/sysmonitor.dir/src/main.cpp.i
 
 CMakeFiles/sysmonitor.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sysmonitor.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikebui/sysmonitor/src/main.cpp -o CMakeFiles/sysmonitor.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikebui/SystemMonitor/src/main.cpp -o CMakeFiles/sysmonitor.dir/src/main.cpp.s
 
 CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.o: CMakeFiles/sysmonitor.dir/flags.make
-CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.o: /home/mikebui/sysmonitor/src/CpuCollector.cpp
+CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.o: /home/mikebui/SystemMonitor/src/CpuCollector.cpp
 CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.o: CMakeFiles/sysmonitor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikebui/sysmonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.o -MF CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.o.d -o CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.o -c /home/mikebui/sysmonitor/src/CpuCollector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikebui/SystemMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.o -MF CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.o.d -o CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.o -c /home/mikebui/SystemMonitor/src/CpuCollector.cpp
 
 CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikebui/sysmonitor/src/CpuCollector.cpp > CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikebui/SystemMonitor/src/CpuCollector.cpp > CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.i
 
 CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikebui/sysmonitor/src/CpuCollector.cpp -o CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikebui/SystemMonitor/src/CpuCollector.cpp -o CMakeFiles/sysmonitor.dir/src/CpuCollector.cpp.s
 
 CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.o: CMakeFiles/sysmonitor.dir/flags.make
-CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.o: /home/mikebui/sysmonitor/src/MemoryCollector.cpp
+CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.o: /home/mikebui/SystemMonitor/src/MemoryCollector.cpp
 CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.o: CMakeFiles/sysmonitor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikebui/sysmonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.o -MF CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.o.d -o CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.o -c /home/mikebui/sysmonitor/src/MemoryCollector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikebui/SystemMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.o -MF CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.o.d -o CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.o -c /home/mikebui/SystemMonitor/src/MemoryCollector.cpp
 
 CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikebui/sysmonitor/src/MemoryCollector.cpp > CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikebui/SystemMonitor/src/MemoryCollector.cpp > CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.i
 
 CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikebui/sysmonitor/src/MemoryCollector.cpp -o CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikebui/SystemMonitor/src/MemoryCollector.cpp -o CMakeFiles/sysmonitor.dir/src/MemoryCollector.cpp.s
 
 CMakeFiles/sysmonitor.dir/src/TempCollector.cpp.o: CMakeFiles/sysmonitor.dir/flags.make
-CMakeFiles/sysmonitor.dir/src/TempCollector.cpp.o: /home/mikebui/sysmonitor/src/TempCollector.cpp
+CMakeFiles/sysmonitor.dir/src/TempCollector.cpp.o: /home/mikebui/SystemMonitor/src/TempCollector.cpp
 CMakeFiles/sysmonitor.dir/src/TempCollector.cpp.o: CMakeFiles/sysmonitor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikebui/sysmonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sysmonitor.dir/src/TempCollector.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sysmonitor.dir/src/TempCollector.cpp.o -MF CMakeFiles/sysmonitor.dir/src/TempCollector.cpp.o.d -o CMakeFiles/sysmonitor.dir/src/TempCollector.cpp.o -c /home/mikebui/sysmonitor/src/TempCollector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikebui/SystemMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sysmonitor.dir/src/TempCollector.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sysmonitor.dir/src/TempCollector.cpp.o -MF CMakeFiles/sysmonitor.dir/src/TempCollector.cpp.o.d -o CMakeFiles/sysmonitor.dir/src/TempCollector.cpp.o -c /home/mikebui/SystemMonitor/src/TempCollector.cpp
 
 CMakeFiles/sysmonitor.dir/src/TempCollector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sysmonitor.dir/src/TempCollector.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikebui/sysmonitor/src/TempCollector.cpp > CMakeFiles/sysmonitor.dir/src/TempCollector.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikebui/SystemMonitor/src/TempCollector.cpp > CMakeFiles/sysmonitor.dir/src/TempCollector.cpp.i
 
 CMakeFiles/sysmonitor.dir/src/TempCollector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sysmonitor.dir/src/TempCollector.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikebui/sysmonitor/src/TempCollector.cpp -o CMakeFiles/sysmonitor.dir/src/TempCollector.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikebui/SystemMonitor/src/TempCollector.cpp -o CMakeFiles/sysmonitor.dir/src/TempCollector.cpp.s
 
 CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.o: CMakeFiles/sysmonitor.dir/flags.make
-CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.o: /home/mikebui/sysmonitor/src/SystemMonitor.cpp
+CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.o: /home/mikebui/SystemMonitor/src/SystemMonitor.cpp
 CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.o: CMakeFiles/sysmonitor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikebui/sysmonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.o -MF CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.o.d -o CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.o -c /home/mikebui/sysmonitor/src/SystemMonitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikebui/SystemMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.o -MF CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.o.d -o CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.o -c /home/mikebui/SystemMonitor/src/SystemMonitor.cpp
 
 CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikebui/sysmonitor/src/SystemMonitor.cpp > CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikebui/SystemMonitor/src/SystemMonitor.cpp > CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.i
 
 CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikebui/sysmonitor/src/SystemMonitor.cpp -o CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikebui/SystemMonitor/src/SystemMonitor.cpp -o CMakeFiles/sysmonitor.dir/src/SystemMonitor.cpp.s
 
 # Object files for target sysmonitor
 sysmonitor_OBJECTS = \
@@ -163,7 +163,7 @@ sysmonitor: CMakeFiles/sysmonitor.dir/compiler_depend.ts
 sysmonitor: /usr/lib/aarch64-linux-gnu/libcurses.so
 sysmonitor: /usr/lib/aarch64-linux-gnu/libform.so
 sysmonitor: CMakeFiles/sysmonitor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mikebui/sysmonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable sysmonitor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mikebui/SystemMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable sysmonitor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sysmonitor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -175,6 +175,6 @@ CMakeFiles/sysmonitor.dir/clean:
 .PHONY : CMakeFiles/sysmonitor.dir/clean
 
 CMakeFiles/sysmonitor.dir/depend:
-	cd /home/mikebui/sysmonitor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikebui/sysmonitor /home/mikebui/sysmonitor /home/mikebui/sysmonitor/build /home/mikebui/sysmonitor/build /home/mikebui/sysmonitor/build/CMakeFiles/sysmonitor.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/mikebui/SystemMonitor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikebui/SystemMonitor /home/mikebui/SystemMonitor /home/mikebui/SystemMonitor/build /home/mikebui/SystemMonitor/build /home/mikebui/SystemMonitor/build/CMakeFiles/sysmonitor.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/sysmonitor.dir/depend
 
